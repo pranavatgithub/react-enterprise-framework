@@ -1,0 +1,28 @@
+{
+    "compilerOptions": {
+        "target": "es2017",
+        "allowSyntheticDefaultImports": false,
+        "baseUrl": "./",
+        "paths": {
+            "Config/*": [
+                "src/config/*"
+            ],
+            "@uicomponents/*": [
+                "src/components/*"
+            ],
+            "Ducks/*": [
+                "src/ducks/*"
+            ],
+            "Shared/*": [
+                "src/shared/*"
+            ],
+            "App/*": [
+                "src/*"
+            ]
+        }
+    },
+    "exclude": [
+        "node_modules",
+        "dist"
+    ]
+}

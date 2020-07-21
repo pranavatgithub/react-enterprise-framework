@@ -4,7 +4,6 @@
 
 * **Clean Code:** Create React app provides a structured project for you, But for larger enterprise grade apps, probably we need better directory structure.
 * **Presentational & Container Based Architecture:** Maximum Reusability in mind, much cleaner code with better de-coupling of business logics from presentational components
-* **Writtern on top of create-react-app**
 * **Global state management** Recoil is :hearts:
 * **Improved http client** Extending the native Fetch API to deal with common things like session management/token management/Request Cancellation (Most of you seen this the side effect while navigating from page-to-page).
 * **Caching Mechanisms**
