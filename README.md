@@ -1,6 +1,6 @@
-## FEATURES
-
 # REACT + HOOKS + RECOIL = :fire:
+
+## FEATURES
 
 * **Clean Code:** Create React app provides a structured project for you, But for larger enterprise grade apps, probably we need better directory structure.
 * **Presentational & Container Based Architecture:** Maximum Reusability in mind, much cleaner code with better de-coupling of business logics from presentational components
