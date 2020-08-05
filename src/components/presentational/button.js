@@ -1,7 +1,19 @@
-import React from 'react'
+import React from 'react';
+import PropTypes from 'prop-types';
 
-export default function Button() {
+export default function Button(props) {
     return (
-        <button>HERE IAMMM</button>
+        <button>{props.name}</button>
     )
+}
+
+/**
+ * MODEL
+ */
+Button.propTypes = {
+    name: PropTypes.string
+}
+
+Button.defaultProps = {
+    name: 'BTN'
 }

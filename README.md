@@ -36,7 +36,17 @@ all the bells and whistles we really need.
 NOT READY
 
 ## Documentation
-WIP
+
+* **Directory Structure**
+
+ - components
+    - Container
+        Container Components are almost always the parents of Presentational Components. In a way, they serve as a intermediary between Presentational Components and the rest of the application. Will contain business logics. 
+        Nomenclature: {:ComponentName}Container, eg:- MenuContainer.js
+    - Presentational
+        Full devoid of business logics, Pure components. Just Render what i got(props)! That is the whole idea.
+        Nomenclature: {SensibleCommonName}, eg:- Button.js/ Table.js
+
 
 ## Examples
 

@@ -7,11 +7,11 @@
             "Config/*": [
                 "src/config/*"
             ],
-            "@uicomponents/*": [
-                "src/components/*"
+            "@presentational/*": [
+                "src/components/presentational/*"
             ],
-            "Ducks/*": [
-                "src/ducks/*"
+            "@container/*": [
+                "src/components/container/*"
             ],
             "Shared/*": [
                 "src/shared/*"
