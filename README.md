@@ -1,4 +1,4 @@
-# REACT + HOOKS + RECOIL = :fire:
+# REACT + HOOKS + RECOIL = :fire: - BEST PRACTICES [WIP]
 
 ## FEATURES
 
