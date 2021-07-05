@@ -1,5 +1,6 @@
 import React from 'react';
-import Button from '@presentational/button/button';
+// import Button from '@presentational/button/button';
+import Button from '../presentational/button/button';
 
 const MENUS = [
     { name: 'home' },

@@ -1,14 +1,16 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import  MenuContainer  from '@container/menuContainer';
+// import  MenuContainer  from '@container/menuContainer';
+import CommentBox from './components/presentational/commentBox';
+import CommentList from './components/presentational/commentList';
+
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <MenuContainer></MenuContainer>
-      </header>
+        <CommentBox></CommentBox>
+        <CommentList></CommentList>
     </div>
   );
 }
