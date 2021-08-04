@@ -1,9 +1,8 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-// import  MenuContainer  from '@container/menuContainer';
-import CommentBox from './components/presentational/commentBox';
-import CommentList from './components/presentational/commentList';
+import CommentBox from '@presentational/commentBox';
+import CommentList from '@presentational/commentList';
 
 function App() {
   return (
